@@ -3,7 +3,7 @@ import random
 while True:
     print()
     pergunta = input(
-        "Voce quer continuar rolando os dados? Digite sim para continuar ou não se quiser parar o jogo "
+        "Voce quer rolar os dados? Digite sim para continuar ou não se quiser parar o jogo "
     )
     print()
     if pergunta != "sim" and pergunta != "nao":
