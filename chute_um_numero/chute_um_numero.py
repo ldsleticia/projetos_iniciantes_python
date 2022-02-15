@@ -1,12 +1,36 @@
+from curses.ascii import isdigit
 import random
 
 numero_aleatorio = random.randint(1, 6)
-pergunta = input("Qual numero entre 1 e 6 eu pensei? ")
+print(numero_aleatorio)
 
-while True:
-    if pergunta == numero_aleatorio:
-        print("Acertou! Parabéns")
-    elif pergunta < numero_aleatorio:
-        print("Chute muito baixo, aumente mais um pouco")
-    else:
-        print("Chute muito alto, desça um pouco")
+
+def verifica_resposta():
+    pass
+
+
+try:
+    while True:
+        print()
+        resposta = int(input("Qual numero entre 1 e 6 eu pensei? "))
+        print()
+        if resposta < numero_aleatorio:
+            print("Chute muito baixo, aumente um pouco")
+        elif resposta > numero_aleatorio:
+            print("Chute muito alto, abaixe um pouco")
+        elif resposta == numero_aleatorio:
+            print("Acertou! Parabéns")
+            break
+except:
+    print("Digite apenas números")
+    while True:
+        print()
+        resposta = int(input("Qual numero entre 1 e 6 eu pensei? "))
+        print()
+        if resposta < numero_aleatorio:
+            print("Chute muito baixo, aumente um pouco")
+        elif resposta > numero_aleatorio:
+            print("Chute muito alto, abaixe um pouco")
+        elif resposta == numero_aleatorio:
+            print("Acertou! Parabéns")
+            break
