@@ -8,8 +8,10 @@
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ldsleticia/projetos_iniciantes_python?color=blue" />
 </p>
 
+Este repositório foi criado com o intuito de guardar os projetos feitos a título de conhecimento e reforço de base.
+
+Exercícios retirados do [site](https://devaprender.com/5-ideias-de-projetos-python-para-iniciantes/)
+
 <p align="center">
   <img alt="Edo Tensei" src="https://github.com/ldsleticia/projetos_iniciantes_python/blob/main/assets/edo-tensei.jpeg" />
 </p>
-
-Este repositório foi criado com o intuito de guardar os projetos feitos a título de conhecimento e reforço de base.
