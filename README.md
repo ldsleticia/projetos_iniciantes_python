@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Orochimaru em cima de uma cobra" src="https://github.com/ldsleticia/python_geek_university/blob/main/img/orochimaru.jpg" />
+  <img alt="Edo Tensei" src="https://github.com/ldsleticia/projetos_iniciantes_python/blob/main/assets/edo-tensei.jpeg" />
 </p>
 
 Este repositório foi criado com o intuito de guardar os projetos feitos a título de conhecimento e reforço de base.
