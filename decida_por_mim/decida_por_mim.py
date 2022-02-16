@@ -1,4 +1,6 @@
-frases = (
+import random
+
+frases = [
     "Só vai",
     "Não acho boa ideia",
     "Talvez dê certo",
@@ -13,13 +15,19 @@ frases = (
     "É meu jeito ninja de ser",
     "O fracasso não é razão para você desistir, desde que continue acreditando",
     "As coisas mais importantes não estão escritas num livro, é preciso aprendê-las vivenciando-as sozinho",
-)
+]
 
-escolha = ""
+resposta = " "
+pergunta = " "
 
-while escolha != "sair":
-    escolha = int(
-        input(
+while resposta != "sair":
+    try:
+        resposta = input(
             "Me pergunte o que quiser e te darei uma resposta. Se quiser sair do nosso bate papo, digite sair "
         )
-    )
+        if resposta == "sair" or resposta == "Sair":
+            print("Obrigada por jogar comigo")
+        elif resposta:
+            print(random.choices(frases))
+    except ValueError:
+        print(42)
