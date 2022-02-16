@@ -18,13 +18,10 @@ frases = [
 ]
 
 while True:
-    try:
-        resposta = input(
-            "Me pergunte o que quiser e te darei uma resposta. Se quiser sair do nosso bate papo, digite sair "
-        )
-        if resposta == "sair" or resposta == "Sair":
-            print("Obrigada por jogar comigo")
-        # elif resposta:
-        #     print(random.choices(frases))
-    except ValueError:
-        print(42)
+    resposta = input(
+        "Me pergunte o que quiser e te darei uma resposta. Se quiser sair do nosso bate papo, digite sair "
+    )
+    if resposta == "sair" or resposta == "Sair":
+        print("Obrigada por jogar comigo")
+    else:
+        print(random.choices(frases))
