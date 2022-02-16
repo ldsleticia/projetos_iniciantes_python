@@ -23,5 +23,7 @@ while True:
     )
     if resposta == "sair" or resposta == "Sair":
         print("Obrigada por jogar comigo")
-    else:
+    elif resposta.isnumeric():
+        print(42)
+    elif resposta:
         print(random.choices(frases))
