@@ -17,17 +17,14 @@ frases = [
     "As coisas mais importantes não estão escritas num livro, é preciso aprendê-las vivenciando-as sozinho",
 ]
 
-resposta = " "
-pergunta = " "
-
-while resposta != "sair":
+while True:
     try:
         resposta = input(
             "Me pergunte o que quiser e te darei uma resposta. Se quiser sair do nosso bate papo, digite sair "
         )
         if resposta == "sair" or resposta == "Sair":
             print("Obrigada por jogar comigo")
-        elif resposta:
-            print(random.choices(frases))
+        # elif resposta:
+        #     print(random.choices(frases))
     except ValueError:
         print(42)
