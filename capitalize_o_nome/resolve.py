@@ -15,5 +15,6 @@ def solve(s):
     else:
         return s.title()
 
+
 print(solve("amanda more"))
 print(solve("123b"))
