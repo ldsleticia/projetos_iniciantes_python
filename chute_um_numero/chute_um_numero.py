@@ -1,8 +1,6 @@
 import random
 
 numero_aleatorio = random.randint(1, 6)
-print()
-print(numero_aleatorio)
 resposta = 0
 
 while resposta != numero_aleatorio:
