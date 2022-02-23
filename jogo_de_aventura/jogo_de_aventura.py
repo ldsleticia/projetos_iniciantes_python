@@ -86,6 +86,3 @@ def primeiro_encontro_mundo_real():
             "Digite 0 para contato ou 1 para passar direto "
         )
     )
-
-
-iniciar()
